@@ -2,5 +2,9 @@
 
 @section('title', 'Page 1')
 @section('content')
-This is home page
+<main>
+    <div class="container my-5 py-5">
+        Page 1
+    </div>
+</main>
 @endsection
