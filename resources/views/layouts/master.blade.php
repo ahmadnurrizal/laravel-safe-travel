@@ -16,7 +16,7 @@
 
     @include('layouts.partials.header')
 
-    <main class="container mt-5">
+    <main>
         @yield('content')
     </main>
 

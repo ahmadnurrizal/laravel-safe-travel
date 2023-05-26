@@ -1,58 +1,78 @@
 <header>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
         <div class="container-fluid">
-            <a class="navbar-brand" href="#!">CraftY</a>
+            <!-- Toggle button -->
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#!">Home</a>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                <!-- Left links -->
+                <a class="navbar-brand" href="#">
+                    <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="20"
+                        alt="MDB Logo" loading="lazy" />
+                </a>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item mx-lg-5 ">
+                        <a class="nav-link" aria-current="page" href="#">Info Negara</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!">About</a>
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item mx-lg-5 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Pelayanan
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="#">Info Negara</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Pelayanan</a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">Himbauan</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Asuransi</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Fun Fact</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Tips</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!">Services</a>
+                    <li class="nav-item mx-lg-5">
+                        <a class="nav-link" href="#">Himbauan</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!">Attractions</a>
+                    <li class="nav-item mx-lg-5">
+                        <a class="nav-link" href="#">Asuransi</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!">Opinions</a>
+                    <li class="nav-item mx-lg-5">
+                        <a class="nav-link" href="#">Fun Fact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!">Contact</a>
+                    <li class="nav-item mx-lg-5">
+                        <a class="nav-link" href="#">Tips</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav d-flex flex-row">
-                    <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="#!">
-                            <i class="fas fa-shopping-cart"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="#!">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="#!">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                </ul>
+                <!-- Left links -->
             </div>
+            <!-- Collapsible wrapper -->
         </div>
+        <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
 
     <!--Section: Design Block-->
-    <section>
+    {{-- <section>
         <div id="intro" class="bg-image" style="
           background-image: url('https://mdbootstrap.com/img/Photos/new-templates/craftsman/img(1).jpg');
           height: 100vh;
@@ -67,6 +87,56 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--Section: Design Block-->
+    <!-- Carousel wrapper -->
+    <div id="carouselBasicExample" class="carousel slide carousel-fade bottom-element" data-mdb-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators mb-10">
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100"
+                    alt="Sunset Over the City" />
+
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100"
+                    alt="Canyon at Nigh" />
+
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100"
+                    alt="Cliff Above a Stormy Sea" />
+
+            </div>
+        </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
+            data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
+            data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carousel wrapper -->
 </header>
