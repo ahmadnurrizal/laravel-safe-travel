@@ -11,6 +11,14 @@ class PageController extends Controller
     {
         return  view("pages.page1");
     }
+    public function infoNegara()
+    {
+        return  view("pages.info-negara");
+    }
+    public function infoNegaraDetail()
+    {
+        return  view("pages.info-negara-detail");
+    }
     /**
      * Display a listing of the resource.
      */

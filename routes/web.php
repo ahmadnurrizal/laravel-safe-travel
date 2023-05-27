@@ -21,4 +21,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('page1', [PageController::class, 'page1']);
+Route::get('page1', [PageController::class, 'page1'])->name('page1');
+Route::get('info-negara', [PageController::class, 'infoNegara'])->name('info-negara');
+Route::get('info-negara/inggirs-raya', [PageController::class, 'infoNegaraDetail'])->name('infoNegaraDetail');

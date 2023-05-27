@@ -1,0 +1,12 @@
+.center {
+    height: calc(100vh - 12rem); /* Corrected the calculation */
+    position: relative;
+}
+
+.center .search-box {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
