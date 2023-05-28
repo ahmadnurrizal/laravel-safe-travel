@@ -24,8 +24,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('page1', [PageController::class, 'page1'])->name('page1');
 Route::get('info-negara', [PageController::class, 'infoNegara'])->name('info-negara');
 Route::get('inggirs-raya/informasi-umum', [PageController::class, 'informasiUmum'])->name('informasi-umum');
-
 Route::get('inggirs-raya/persyaratan', [PageController::class, 'persyaratan'])->name('persyaratan');
+
 Route::get('inggirs-raya/keselamatan-keamanan', [PageController::class, 'keselamatanKeamanan'])->name('keselamatan-keamanan');
 Route::get('inggirs-raya/hukum-kebiasaan', [PageController::class, 'hukumKebiasaan'])->name('hukum-kebiasaan');
 Route::get('inggirs-raya/mata-uang', [PageController::class, 'mataUang'])->name('mata-uang');

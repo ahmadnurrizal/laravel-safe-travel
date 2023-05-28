@@ -11,55 +11,79 @@
         <div class="card pt-4" style="border-top-left-radius: 35px; border-top-right-radius: 35px;">
             <div class="row p-3">
                 <div class="card-group card-country-list justify-content-center text-center ">
-                    <div class="card card-text-center p-1 pt-2"
+                    <div class="card card-text-center"
                         style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <p class="card-title ">Informasi Umum</p>
+                        <a class="card-block stretched-link text-decoration-none" href="{{route('informasi-umum')}}">
+                            <p class="card-title pt-2">Informasi Umum</p>
+                        </a>
                     </div>
-                    <div class="card card-text-center p-1 pt-2"
+                    <div class="card card-text-center"
                         style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <p class="card-title">Persyaratan masuk/keluar</p>
+                        <a class="card-block stretched-link text-decoration-none" href="{{route('persyaratan')}}">
+                            <p class="card-title pt-2">Persyaratan masuk/keluar</p>
+                        </a>
                     </div>
-                    <div class="card card-text-center p-1 pt-2"
+                    <div class="card card-text-center"
                         style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <p class="card-title">Keselamatan dan Keamanan</p>
+                        <a class="card-block stretched-link text-decoration-none" href="{{route('informasi-umum')}}">
+                            <p class="card-title pt-2">Keselamatan dan Keamanan</p>
+                        </a>
                     </div>
-                    <div class="card card-text-center p-1 pt-2"
+                    <div class="card card-text-center"
                         style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <p class="card-title">Hukum dan Kebiasaan Setempat</p>
+                        <a class="card-block stretched-link text-decoration-none" href="{{route('informasi-umum')}}">
+                            <p class="card-title pt-2">Hukum dan Kebiasaan Setempat</p>
+                        </a>
                     </div>
-                    <div class="card card-text-center p-1 pt-2"
+                    <div class="card card-text-center"
                         style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <p class="card-title">Hukum dan
-                            Kebiasaan setempat</p>
+                        <a class="card-block stretched-link text-decoration-none" href="{{route('informasi-umum')}}">
+                            <p class="card-title pt-2">Mata Uang dan Penukaran</p>
+                        </a>
                     </div>
-                    <div class="card card-text-center p-1 pt-2"
+                    <div class="card card-text-center"
                         style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <p class="card-title">Mata uang dan Penukaran</p>
+                        <a class="card-block stretched-link text-decoration-none" href="{{route('informasi-umum')}}">
+                            <p class="card-title pt-2">Asuransi dan Kesehatan</p>
+                        </a>
                     </div>
-                    <div class="card card-text-center p-1 pt-2"
+                    <div class="card card-text-center"
                         style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <p class="card-title">Asuransi dan Kesehatan</p>
+                        <a class="card-block stretched-link text-decoration-none" href="{{route('informasi-umum')}}">
+                            <p class="card-title pt-2">Telekomunikasi</p>
+                        </a>
                     </div>
-                    <div class="card card-text-center p-1 pt-2"
+                    <div class="card card-text-center"
                         style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <p class="card-title">Telekomunikasi</p>
+                        <a class="card-block stretched-link text-decoration-none" href="{{route('informasi-umum')}}">
+                            <p class="card-title pt-2">Tempat Ibadah</p>
+                        </a>
                     </div>
-                    <div class="card card-text-center p-1 pt-2"
+                    <div class="card card-text-center"
                         style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <p class="card-title">Tempat Ibadah</p>
+                        <a class="card-block stretched-link text-decoration-none" href="{{route('informasi-umum')}}">
+                            <p class="card-title pt-2">Fasilitas Kesehatan</p>
+                        </a>
                     </div>
-                    <div class="card card-text-center p-1 pt-2"
+                    <div class="card card-text-center"
                         style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <p class="card-title">Fasilitas Kesehatan</p>
+                        <a class="card-block stretched-link text-decoration-none" href="{{route('informasi-umum')}}">
+                            <p class="card-title pt-2">Kuliner</p>
+                        </a>
                     </div>
-                    <div class="card card-text-center p-1 pt-2"
+                    <div class="card card-text-center"
                         style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <p class="card-title">Kuliner</p>
+                        <a class="card-block stretched-link text-decoration-none" href="{{route('informasi-umum')}}">
+                            <p class="card-title pt-2">Tempat Wisata</p>
+                        </a>
                     </div>
-                    <div class="card card-text-center p-1 pt-2"
-                        style="border-radius:10px ; font-size:11px;font-weight: bold">
-                        <p class="card-title">Tempat Wisata</p>
-                    </div>
+
+
+
+
+
+
+
                 </div>
             </div>
             <div class="container py-3">

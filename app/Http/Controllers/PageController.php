@@ -19,6 +19,10 @@ class PageController extends Controller
     {
         return  view("pages.info-negara.informasi-umum");
     }
+    public function persyaratan()
+    {
+        return  view("pages.info-negara.persyaratan");
+    }
     /**
      * Display a listing of the resource.
      */
