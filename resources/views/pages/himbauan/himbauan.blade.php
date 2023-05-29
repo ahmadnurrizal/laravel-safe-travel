@@ -26,9 +26,9 @@
                             <h5 class="card-title">Judul Himbauan</h5>
                             <p class="card-text">Tanggal</p>
                             <div class="position-absolute bottom-0 end-0">
-                                <button type="button" class="btn btn-primary m-3">
+                                <a href="{{route('himbauan-detail')}}" class="btn btn-primary m-3">
                                     <span class="px-5 text-capitalize">Lihat Selengkapnya</span>
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -47,9 +47,9 @@
                             <h5 class="card-title">Judul Himbauan</h5>
                             <p class="card-text">Tanggal</p>
                             <div class="position-absolute bottom-0 end-0">
-                                <button type="button" class="btn btn-primary m-3">
+                                <a href="{{route('himbauan-detail')}}" class="btn btn-primary m-3">
                                     <span class="px-5 text-capitalize">Lihat Selengkapnya</span>
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -68,9 +68,9 @@
                             <h5 class="card-title">Judul Himbauan</h5>
                             <p class="card-text">Tanggal</p>
                             <div class="position-absolute bottom-0 end-0">
-                                <button type="button" class="btn btn-primary m-3">
+                                <a href="{{route('himbauan-detail')}}" class="btn btn-primary m-3">
                                     <span class="px-5 text-capitalize">Lihat Selengkapnya</span>
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -89,9 +89,10 @@
                             <h5 class="card-title">Judul Himbauan</h5>
                             <p class="card-text">Tanggal</p>
                             <div class="position-absolute bottom-0 end-0">
-                                <button type="button" class="btn btn-primary m-3">
+                                <a href="{{route('himbauan-detail')}}" class="btn btn-primary m-3">
                                     <span class="px-5 text-capitalize">Lihat Selengkapnya</span>
-                                </button>
+                                </a>
+
                             </div>
                         </div>
                     </div>

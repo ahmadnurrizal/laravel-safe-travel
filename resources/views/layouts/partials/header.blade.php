@@ -13,7 +13,7 @@
             <!-- Collapsible wrapper -->
             <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
                 <!-- Left links -->
-                <a class="navbar-brand" href="{{route('page1')}}">
+                <a class="navbar-brand" href="{{route('beranda')}}">
                     <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="20"
                         alt="MDB Logo" loading="lazy" />
                 </a>

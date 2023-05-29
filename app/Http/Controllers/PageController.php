@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function page1()
+    public function beranda()
     {
-        return  view("pages.page1");
+        return  view("pages.beranda");
     }
     public function infoNegara()
     {
@@ -61,7 +61,11 @@ class PageController extends Controller
     }
     public function himbauan()
     {
-        return  view("pages.himbauan");
+        return  view("pages.himbauan.himbauan");
+    }
+    public function himbauanDetail()
+    {
+        return  view("pages.himbauan.himbauan-detail");
     }
     /**
      * Display a listing of the resource.

@@ -20,8 +20,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('page1', [PageController::class, 'page1'])->name('page1');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('beranda', [PageController::class, 'beranda'])->name('beranda');
 Route::get('info-negara', [PageController::class, 'infoNegara'])->name('info-negara');
 Route::get('inggirs-raya/informasi-umum', [PageController::class, 'informasiUmum'])->name('informasi-umum');
 Route::get('inggirs-raya/persyaratan', [PageController::class, 'persyaratan'])->name('persyaratan');
@@ -35,5 +35,5 @@ Route::get('inggirs-raya/fasilitas-kesehatan', [PageController::class, 'fasilita
 Route::get('inggirs-raya/kuliner', [PageController::class, 'kuliner'])->name('kuliner');
 Route::get('inggirs-raya/tempat-wisata', [PageController::class, 'tempatWisata'])->name('tempat-wisata');
 
-
 Route::get('himbauan', [PageController::class, 'himbauan'])->name('himbauan');
+Route::get('himbauan/detail', [PageController::class, 'himbauanDetail'])->name('himbauan-detail');
