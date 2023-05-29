@@ -30,28 +30,15 @@
                         <!-- Dropdown menu -->
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="dropdown-item" href="#">Info Negara</a>
+                                <a class="dropdown-item" href="#">Umum</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">Pelayanan</a>
-                            </li>
-
-                            <li>
-                                <a class="dropdown-item" href="#">Himbauan</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Asuransi</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Fun Fact</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Tips</a>
+                                <a class="dropdown-item" href="#">Dinas</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item mx-lg-5">
-                        <a class="nav-link" href="#">Himbauan</a>
+                        <a class="nav-link" href="{{route('himbauan')}}">Himbauan</a>
                     </li>
                     <li class="nav-item mx-lg-5">
                         <a class="nav-link" href="#">Asuransi</a>

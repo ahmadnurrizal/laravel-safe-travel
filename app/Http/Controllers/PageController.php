@@ -59,6 +59,10 @@ class PageController extends Controller
     {
         return  view("pages.info-negara.tempat-wisata");
     }
+    public function himbauan()
+    {
+        return  view("pages.himbauan");
+    }
     /**
      * Display a listing of the resource.
      */
