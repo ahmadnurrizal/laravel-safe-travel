@@ -23,6 +23,42 @@ class PageController extends Controller
     {
         return  view("pages.info-negara.persyaratan");
     }
+    public function keselamatanKeamanan()
+    {
+        return  view("pages.info-negara.keselamatan&keamanan");
+    }
+    public function hukumKebiasaan()
+    {
+        return  view("pages.info-negara.hukum&kebiasaan");
+    }
+    public function mataUang()
+    {
+        return  view("pages.info-negara.mata-uang");
+    }
+    public function asuransiKesehatan()
+    {
+        return  view("pages.info-negara.asuransi-kesehatan");
+    }
+    public function telekomunikasi()
+    {
+        return  view("pages.info-negara.telekomunikasi");
+    }
+    public function tempatIbadah()
+    {
+        return  view("pages.info-negara.tempat-ibadah");
+    }
+    public function fasilitasKesehatan()
+    {
+        return  view("pages.info-negara.fasilitas-kesehatan");
+    }
+    public function kuliner()
+    {
+        return  view("pages.info-negara.kuliner");
+    }
+    public function tempatWisata()
+    {
+        return  view("pages.info-negara.tempat-wisata");
+    }
     /**
      * Display a listing of the resource.
      */

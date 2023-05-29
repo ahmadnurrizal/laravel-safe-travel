@@ -25,13 +25,12 @@ Route::get('page1', [PageController::class, 'page1'])->name('page1');
 Route::get('info-negara', [PageController::class, 'infoNegara'])->name('info-negara');
 Route::get('inggirs-raya/informasi-umum', [PageController::class, 'informasiUmum'])->name('informasi-umum');
 Route::get('inggirs-raya/persyaratan', [PageController::class, 'persyaratan'])->name('persyaratan');
-
 Route::get('inggirs-raya/keselamatan-keamanan', [PageController::class, 'keselamatanKeamanan'])->name('keselamatan-keamanan');
 Route::get('inggirs-raya/hukum-kebiasaan', [PageController::class, 'hukumKebiasaan'])->name('hukum-kebiasaan');
 Route::get('inggirs-raya/mata-uang', [PageController::class, 'mataUang'])->name('mata-uang');
 Route::get('inggirs-raya/asuransi-kesehatan', [PageController::class, 'asuransiKesehatan'])->name('asuransi-kesehatan');
 Route::get('inggirs-raya/telekomunikasi', [PageController::class, 'telekomunikasi'])->name('telekomunikasi');
 Route::get('inggirs-raya/tempat-ibadah', [PageController::class, 'tempatIbadah'])->name('tempat-ibadah');
-Route::get('inggirs-raya/fasilitas-kesehatan', [PageController::class, 'fasilitasKesehatan'])->name('itas-kesehatan');
+Route::get('inggirs-raya/fasilitas-kesehatan', [PageController::class, 'fasilitasKesehatan'])->name('fasilitas-kesehatan');
 Route::get('inggirs-raya/kuliner', [PageController::class, 'kuliner'])->name('kuliner');
 Route::get('inggirs-raya/tempat-wisata', [PageController::class, 'tempatWisata'])->name('tempat-wisata');
