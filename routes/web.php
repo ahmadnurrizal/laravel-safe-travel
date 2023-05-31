@@ -37,3 +37,8 @@ Route::get('inggirs-raya/tempat-wisata', [PageController::class, 'tempatWisata']
 
 Route::get('himbauan', [PageController::class, 'himbauan'])->name('himbauan');
 Route::get('himbauan/detail', [PageController::class, 'himbauanDetail'])->name('himbauan-detail');
+
+Route::get('pelayanan/dinas', [PageController::class, 'pelayananDinas'])->name('pelayanan-dinas');
+Route::get('pelayanan/umum', [PageController::class, 'pelayananUmum'])->name('pelayanan-umum');
+Route::get('pelayanan/umum/inggris-raya', [PageController::class, 'pelayananUmumInggrisRaya'])->name('pelayanan-umum-inggris-raya');
+Route::get('pelayanan/umum/kbri', [PageController::class, 'kbri'])->name('kbri');

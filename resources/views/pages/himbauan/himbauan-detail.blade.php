@@ -6,7 +6,6 @@
 
 
 <div class="container">
-    .
     <div class="alert alert-secondary my-lg-3 text-center" role="alert">
         <span style="font-size: larger; font-weight: bold;">Himbauan</span>
     </div>

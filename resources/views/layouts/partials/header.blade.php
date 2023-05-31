@@ -30,10 +30,10 @@
                         <!-- Dropdown menu -->
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="dropdown-item" href="#">Umum</a>
+                                <a class="dropdown-item" href="{{route('pelayanan-umum')}}">Umum</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">Dinas</a>
+                                <a class="dropdown-item" href="{{route('pelayanan-dinas')}}">Dinas</a>
                             </li>
                         </ul>
                     </li>

@@ -67,6 +67,23 @@ class PageController extends Controller
     {
         return  view("pages.himbauan.himbauan-detail");
     }
+    public function pelayananDinas()
+    {
+        return  view("pages.pelayanan.dinas");
+    }
+    public function pelayananUmum()
+    {
+        return  view("pages.pelayanan.umum");
+    }
+    public function pelayananUmumInggrisRaya()
+    {
+        return  view("pages.pelayanan.list-kbri");
+    }
+    public function kbri()
+    {
+        return  view("pages.pelayanan.detail-kbri");
+    }
+
     /**
      * Display a listing of the resource.
      */

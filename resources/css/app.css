@@ -2,6 +2,7 @@
 
 @import "page1.css";
 @import "info-negara.css";
+@import "./pelayanan.css";
 
 .card-text-center {
     display: flex;
