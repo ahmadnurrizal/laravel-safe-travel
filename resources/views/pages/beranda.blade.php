@@ -6,7 +6,7 @@
 <!-- Carousel wrapper -->
 <div id="carouselBasicExample" class="carousel slide carousel-fade bottom-element" data-mdb-ride="carousel">
     <!-- Indicators -->
-    <div class="carousel-indicators mb-10">
+    <div class="carousel-indicators mb-5">
         <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
@@ -50,68 +50,125 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-<!-- Carousel wrapper -->
 
-<div class="d-flex justify-content-center">
-    <div class="card-group card-group-scroll m-lg-5">
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
-                alt="Hollywood Sign on The Hill" />
-            <h5 class="card-title">Card title</h5>
-        </div>
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
-                alt="Palm Springs Road" />
 
-            <h5 class="card-title">Card title</h5>
-        </div>
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
-                alt="Los Angeles Skyscrapers" />
+<div class="container text-center my-3 carousel-multi-image">
+    <h2 style="font-weight:bolder">Himbauan Penting</h2>
+    <div class="row mx-auto my-auto justify-content-center">
+        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://cdn.antaranews.com/cache/800x533/2019/11/26/Maria-Ozawa-Menonton-Pertandingan-Timnas-261119-sgd-3_1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <a class="card-block stretched-link text-decoration-none"
+                                    style="text-decoration: none; color: inherit;" href="{{route('himbauan-detail')}}">
+                                    <p class="card-text">tanggal</p>
+                                    <h5 class="card-title">Card title</h5>
+                                </a>
 
-            <h5 class="card-title">Card title</h5>
-        </div>
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top"
-                alt="Hollywood Sign on The Hill" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://cdn.antaranews.com/cache/800x533/2019/11/26/Maria-Ozawa-Menonton-Pertandingan-Timnas-261119-sgd-3_1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <a class="card-block stretched-link text-decoration-none"
+                                    style="text-decoration: none; color: inherit;" href="{{route('himbauan-detail')}}">
+                                    <p class="card-text">tanggal</p>
+                                    <h5 class="card-title">Card title</h5>
+                                </a>
 
-            <h5 class="card-title">Card title</h5>
-        </div>
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/045.webp" class="card-img-top"
-                alt="Palm Springs Road" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://cdn.antaranews.com/cache/800x533/2019/11/26/Maria-Ozawa-Menonton-Pertandingan-Timnas-261119-sgd-3_1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <a class="card-block stretched-link text-decoration-none"
+                                    style="text-decoration: none; color: inherit;" href="{{route('himbauan-detail')}}">
+                                    <p class="card-text">tanggal</p>
+                                    <h5 class="card-title">Card title</h5>
+                                </a>
 
-            <h5 class="card-title">Card title</h5>
-        </div>
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/046.webp" class="card-img-top"
-                alt="Los Angeles Skyscrapers" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://cdn.antaranews.com/cache/800x533/2019/11/26/Maria-Ozawa-Menonton-Pertandingan-Timnas-261119-sgd-3_1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <a class="card-block stretched-link text-decoration-none"
+                                    style="text-decoration: none; color: inherit;" href="{{route('himbauan-detail')}}">
+                                    <p class="card-text">tanggal</p>
+                                    <h5 class="card-title">Card title</h5>
+                                </a>
 
-            <h5 class="card-title">Card title</h5>
-        </div>
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/046.webp" class="card-img-top"
-                alt="Los Angeles Skyscrapers" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://cdn.antaranews.com/cache/800x533/2019/11/26/Maria-Ozawa-Menonton-Pertandingan-Timnas-261119-sgd-3_1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <a class="card-block stretched-link text-decoration-none"
+                                    style="text-decoration: none; color: inherit;" href="{{route('himbauan-detail')}}">
+                                    <p class="card-text">tanggal</p>
+                                    <h5 class="card-title">Card title</h5>
+                                </a>
 
-            <h5 class="card-title">Card title</h5>
-        </div>
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/046.webp" class="card-img-top"
-                alt="Los Angeles Skyscrapers" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://cdn.antaranews.com/cache/800x533/2019/11/26/Maria-Ozawa-Menonton-Pertandingan-Timnas-261119-sgd-3_1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <a class="card-block stretched-link text-decoration-none"
+                                    style="text-decoration: none; color: inherit;" href="{{route('himbauan-detail')}}">
+                                    <p class="card-text">tanggal</p>
+                                    <h5 class="card-title">Card title</h5>
+                                </a>
 
-            <h5 class="card-title">Card title</h5>
-        </div>
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/046.webp" class="card-img-top"
-                alt="Los Angeles Skyscrapers" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <h5 class="card-title">Card title</h5>
+            </div>
+            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
         </div>
     </div>
 </div>
 
 
-<!-- Carousel wrapper -->
+
 <div id="carouselMaterialStyle" class="carousel slide carousel-fade top-element slide-body" data-mdb-ride="carousel">
     <!-- Indicators -->
     <div class="carousel-indicators">
