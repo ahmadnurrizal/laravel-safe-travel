@@ -153,6 +153,22 @@
                         </div>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://cdn.antaranews.com/cache/800x533/2019/11/26/Maria-Ozawa-Menonton-Pertandingan-Timnas-261119-sgd-3_1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <a class="card-block stretched-link text-decoration-none"
+                                    style="text-decoration: none; color: inherit;" href="{{route('himbauan-detail')}}">
+                                    <p class="card-text">tanggal</p>
+                                    <h5 class="card-title">Card title</h5>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
@@ -228,30 +244,33 @@
 </div>
 <!-- Carousel wrapper -->
 <div class="container-fluid">
-    <div class="row py-5 text-center text-white" style="background-color: #22223b">
-        <div class="col-md-4">
-            <img src="https://img2.lokercepat.id/files/2023-03-17/telu-doeloer-68.png" alt="" width="100px">
+    <div class="row py-5 gx-5">
+        <div class="col-md-4 text-end ">
+            {{-- <img src="https://img2.lokercepat.id/files/2023-03-17/telu-doeloer-68.png" alt="" width="100px"> --}}
+            <img src={{asset('storage/images/app-review.png')}} alt="" width="300px" class="ml-5">
         </div>
-        <div class="col-md-8">
-            <h3>Download Aplikasi Safe Travel</h3>
-            <div class="detail-app">
-                <p class="text-start">Download dan install Safe Travel di Android atau iPhone untuk dapat mengakses
-                    fitur lengkap dan manfaat Iainnya:</p>
-                <ul class="text-start">
-                    <li>Mengakses tombol darurat</li>
-                    <li>Mendapatkan poin, level, dan badge</li>
-                    <li>Fitur-fitur menarik Iainnya</li>
-                </ul>
-
+        <div class="col-md-6 d-flex align-items-center">
+            <div class="card border-0" style="background-color: #E7F4FF;color :black">
+                <div class="card-body text-center">
+                    <h3>Download Aplikasi Safe Travel</h3>
+                    <div class="detail-app">
+                        <p class="text-start">Download dan install Safe Travel di Android atau iPhone untuk dapat
+                            mengakses fitur lengkap dan manfaat Iainnya:</p>
+                        <ul class="text-start">
+                            <li>Mengakses tombol darurat</li>
+                            <li>Mendapatkan poin, level, dan badge</li>
+                            <li>Fitur-fitur menarik Iainnya</li>
+                        </ul>
+                    </div>
+                    <div class="image-row">
+                        <img src={{asset('storage/images/play-store.png')}} alt="" width="100px"
+                            style="margin-right: 10px;">
+                        <img src={{asset('storage/images/app-store.png')}} alt="" width="100px">
+                    </div>
+                </div>
             </div>
-            <div class="image-row">
-                <img src="https://akexorcist.dev/content/images/2022/01/publish_android_app_to_google_play_store-header.webp"
-                    alt="Image 1" width="100px">
-                <img src="https://akexorcist.dev/content/images/2022/01/publish_android_app_to_google_play_store-header.webp"
-                    alt="Image 2" width="100px">
-            </div>
-
         </div>
+        <div class="col-md-2"></div>
     </div>
 </div>
 

@@ -10,74 +10,105 @@
 
         <div class="card pt-4" style="border-top-left-radius: 35px; border-top-right-radius: 35px;">
             <div class="row p-3">
-                <div class="card-group card-country-list justify-content-center text-center ">
-                    <div class="card card-text-center"
-                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <a class="card-block stretched-link text-decoration-none" href="{{route('informasi-umum')}}">
-                            <p class="card-title pt-2">Informasi Umum</p>
+                <div class="card-group card-country-list justify-content-center text-center p-3"
+                    style="background-color: #2071B8;border-radius: 30px">
+                    <div class="card card-text-center border-0 p-1 "
+                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold;background-color:#2071B8">
+                        <a class="card-block stretched-link text-decoration-none text-white text-white"
+                            href="{{route('informasi-umum')}}">
+                            <img src={{asset('storage/images/icons/i.png')}} alt="" width="20px">
+                            <br>
+                            <span class="card-title pt-2">Informasi Umum</span>
                         </a>
                     </div>
-                    <div class="card card-text-center"
-                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <a class="card-block stretched-link text-decoration-none" href="{{route('persyaratan')}}">
-                            <p class="card-title pt-2">Persyaratan masuk/keluar</p>
+                    <div class="card card-text-center border-0 "
+                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold;background-color:#2071B8">
+                        <a class="card-block stretched-link text-decoration-none text-white text-white"
+                            href="{{route('persyaratan')}}">
+                            <img src={{asset('storage/images/icons/visa.png')}} alt="" width="20px">
+                            <br>
+                            <span class="card-title pt-2">Persyaratan masuk/keluar</span>
                         </a>
                     </div>
-                    <div class="card card-text-center"
-                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <a class="card-block stretched-link text-decoration-none"
+                    <div class="card card-text-center border-0"
+                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold;background-color:#2071B8">
+                        <a class="card-block stretched-link text-decoration-none text-white"
                             href="{{route('keselamatan-keamanan')}}">
-                            <p class="card-title pt-2">Keselamatan dan Keamanan</p>
+                            <img src={{asset('storage/images/icons/shield.png')}} alt="" width="20px">
+                            <br>
+                            <span class="card-title pt-2">Keselamatan dan Keamanan</span>
                         </a>
                     </div>
-                    <div class="card card-text-center"
-                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <a class="card-block stretched-link text-decoration-none" href="{{route('hukum-kebiasaan')}}">
-                            <p class="card-title pt-2">Hukum dan Kebiasaan Setempat</p>
+                    <div class="card card-text-center border-0"
+                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold;background-color:#2071B8">
+                        <a class="card-block stretched-link text-decoration-none text-white"
+                            href="{{route('hukum-kebiasaan')}}">
+                            <img src={{asset('storage/images/icons/timbangan.png')}} alt="" width="20px">
+                            <br>
+                            <span class="card-title pt-2">Hukum dan Kebiasaan Setempat</span>
                         </a>
                     </div>
-                    <div class="card card-text-center"
-                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <a class="card-block stretched-link text-decoration-none" href="{{route('mata-uang')}}">
-                            <p class="card-title pt-2">Mata Uang dan Penukaran</p>
+                    <div class="card card-text-center border-0"
+                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold;background-color:#2071B8">
+                        <a class="card-block stretched-link text-decoration-none text-white"
+                            href="{{route('mata-uang')}}">
+                            <img src={{asset('storage/images/icons/uang.png')}} alt="" width="20px">
+                            <br>
+                            <span class="card-title pt-2">Mata Uang dan Penukaran</span>
                         </a>
                     </div>
-                    <div class="card card-text-center"
-                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <a class="card-block stretched-link text-decoration-none"
+                    <div class="card card-text-center border-0"
+                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold;background-color:#2071B8">
+                        <a class="card-block stretched-link text-decoration-none text-white"
                             href="{{route('asuransi-kesehatan')}}">
-                            <p class="card-title pt-2">Asuransi dan Kesehatan</p>
+                            <img src={{asset('storage/images/icons/asuransi.png')}} alt="" width="20px">
+                            <br>
+                            <span class="card-title pt-2">Asuransi dan Kesehatan</span>
                         </a>
                     </div>
-                    <div class="card card-text-center"
-                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <a class="card-block stretched-link text-decoration-none" href="{{route('telekomunikasi')}}">
-                            <p class="card-title pt-2">Telekomunikasi</p>
+                    <div class="card card-text-center border-0"
+                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold;background-color:#2071B8">
+                        <a class="card-block stretched-link text-decoration-none text-white"
+                            href="{{route('telekomunikasi')}}">
+                            <img src={{asset('storage/images/icons/telepon.png')}} alt="" width="20px">
+                            <br>
+                            <span class="card-title pt-2">Telekomunikasi</span>
                         </a>
                     </div>
-                    <div class="card card-text-center"
-                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <a class="card-block stretched-link text-decoration-none" href="{{route('tempat-ibadah')}}">
-                            <p class="card-title pt-2">Tempat Ibadah</p>
+                    <div class="card card-text-center border-0"
+                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold;background-color:#2071B8">
+                        <a class="card-block stretched-link text-decoration-none text-white"
+                            href="{{route('tempat-ibadah')}}">
+                            <img src={{asset('storage/images/icons/ibadah.png')}} alt="" width="20px">
+                            <br>
+                            <span class="card-title pt-2">Tempat Ibadah</span>
                         </a>
                     </div>
-                    <div class="card card-text-center"
-                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <a class="card-block stretched-link text-decoration-none"
+                    <div class="card card-text-center border-0"
+                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold;background-color:#2071B8">
+                        <a class="card-block stretched-link text-decoration-none text-white"
                             href="{{route('fasilitas-kesehatan')}}">
-                            <p class="card-title pt-2">Fasilitas Kesehatan</p>
+                            <img src={{asset('storage/images/icons/hospital.png')}} alt="" width="20px">
+                            <br>
+                            <span class="card-title pt-2">Fasilitas Kesehatan</span>
                         </a>
                     </div>
-                    <div class="card card-text-center"
-                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <a class="card-block stretched-link text-decoration-none" href="{{route('kuliner')}}">
-                            <p class="card-title pt-2">Kuliner</p>
+                    <div class="card card-text-center border-0"
+                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold;background-color:#2071B8">
+                        <a class="card-block stretched-link text-decoration-none text-white"
+                            href="{{route('kuliner')}}">
+                            <img src={{asset('storage/images/icons/kuliner.png')}} alt="" width="20px">
+                            <br>
+                            <span class="card-title pt-2">Kuliner</span>
                         </a>
                     </div>
-                    <div class="card card-text-center"
-                        style="border-radius:10px ;margin-right: 10px; font-size:11px;font-weight: bold">
-                        <a class="card-block stretched-link text-decoration-none" href="{{route('tempat-wisata')}}">
-                            <p class="card-title pt-2">Tempat Wisata</p>
+                    <div class="card card-text-center border-0"
+                        style="border-radius:10px ; font-size:11px;font-weight: bold;background-color:#2071B8">
+                        <a class="card-block stretched-link text-decoration-none text-white"
+                            href="{{route('tempat-wisata')}}">
+                            <img src={{asset('storage/images/icons/koper.png')}} alt="" width="20px">
+                            <br>
+                            <span class="card-title pt-2">Tempat Wisata</span>
                         </a>
                     </div>
 

@@ -3,7 +3,7 @@
 @section('sub-info-negara')
 
 <h2 class=" text-center">@yield('sub-judul')</h2>
-<div class="card my-3">
+<div class="card my-3  border-0" style="background-color: #E7F4FF">
     <div class="card-body">
         <p>
             Mata uang resmi Britania Raya adalah Pound sterling. Penukaran mata uang Pound sterling dapat dilakukan
