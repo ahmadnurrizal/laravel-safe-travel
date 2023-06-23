@@ -3,6 +3,7 @@
 @import "beranda.css";
 @import "info-negara.css";
 @import "./pelayanan.css";
+@import "./himbauan.css";
 
 .card-text-center {
     display: flex;

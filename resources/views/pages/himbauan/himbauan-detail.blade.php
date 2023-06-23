@@ -6,15 +6,17 @@
 
 
 <div class="container">
-    <div class="alert alert-secondary my-lg-3 text-center" role="alert">
-        <span style="font-size: larger; font-weight: bold;">Himbauan</span>
-    </div>
     <div class="row text-center p-5">
-        <span><b>Judul Himbauan</b></span>
+        <h2 class="fw-bold">
+            Terjadi kerusuhan di beberapa
+            titik di kota Paris
+        </h2>
     </div>
-    <img src="https://images2.minutemediacdn.com/image/upload/c_crop,w_5286,h_2973,x_0,y_219/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01gnpkpdq3dqp7h99bwt.jpg"
-        class="img-fluid" alt="Full Width Image" width="100%">
-    <div class="card my-3">
+    <div class="text-center">
+
+        <img src={{asset('storage/images/himbauan.png')}} class="img-fluid" alt="Full Width Image" width="70%">
+    </div>
+    <div class="card my-5 border-0" style="border-radius: 30px">
         <div class="card-body">
             <p>
                 Pada tgl 23 Maret 2023 siang hingga malam hari waktu Paris terjadi kerusuhan di beberapa titik di kota
@@ -38,43 +40,29 @@
             </ol>
         </div>
     </div>
-
-    <div class="row text-center mb-3">
-        <span style="font-size: larger; font-weight: bold;">Share On :</span>
-        <div class="row justify-content-center my-lg-3">
-            <div class="col-1 col-md-1">
-                <a href="#">
-                    <i class="fab fa-facebook-f fa-2x"></i>
-                </a>
-            </div>
-            <div class="col-1 col-md-1">
-                <a href="#">
-                    <i class="fab fa-twitter fa-2x"></i>
-                </a>
-            </div>
-            <div class="col-1 col-md-1">
-                <a href="#">
-                    <i class="fab fa-instagram fa-2x"></i>
-                </a>
+    <div class="d-flex justify-content-center align-items-center mb-4">
+        <div class="card border-0 p-3" style="border-radius: 30px; display: inline-block;">
+            <div class="text-center mb-3">
+                <p class="fw-bold">share on :</p>
+                <div class="social-icons d-flex justify-content-center">
+                    <a href="#">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-facebook-f fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                    </a>
+                </div>
+                <div class="image-row mt-2">
+                    <img src={{asset('storage/images/play-store.png')}} alt="" width="100px"
+                        style="margin-right: 10px;">
+                    <img src={{asset('storage/images/app-store.png')}} alt="" width="100px">
+                </div>
             </div>
         </div>
-        <div class="image-row">
-            <img src="https://akexorcist.dev/content/images/2022/01/publish_android_app_to_google_play_store-header.webp"
-                alt="Image 1" width="100px" class="me-2">
-            <img src="https://akexorcist.dev/content/images/2022/01/publish_android_app_to_google_play_store-header.webp"
-                alt="Image 2" width="100px">
-        </div>
-
     </div>
-
-
-
-
-
-
-
-
-
 </div>
 
 
