@@ -3,9 +3,9 @@
 @section('content')
 
 <div class="konten-info-umum">
-    <div class="country-detail">
-        <div class="country-name text-center mb-10 pt-5">
-            <h1>Inggris Raya</h1>
+    <div class="country-detail" style="background-image: url('{{ asset('storage/images/inggris-raya.png') }}');">
+        <div class="country-name text-center mb-9 pt-5">
+            <h1 class="pt-5 text-white"><b>Inggris Raya</b></h1>
         </div>
 
         <div class="card pt-4" style="border-top-left-radius: 35px; border-top-right-radius: 35px;">

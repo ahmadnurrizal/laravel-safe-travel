@@ -34,6 +34,10 @@ Route::get('inggirs-raya/tempat-ibadah', [PageController::class, 'tempatIbadah']
 Route::get('inggirs-raya/fasilitas-kesehatan', [PageController::class, 'fasilitasKesehatan'])->name('fasilitas-kesehatan');
 Route::get('inggirs-raya/kuliner', [PageController::class, 'kuliner'])->name('kuliner');
 Route::get('inggirs-raya/tempat-wisata', [PageController::class, 'tempatWisata'])->name('tempat-wisata');
+Route::get('inggirs-raya/fasilitas-kesehatan/detail', [PageController::class, 'fasilitasKesehatanDetail'])->name('fasilitas-kesehatan-detail');
+Route::get('inggirs-raya/tempat-ibadah/detail', [PageController::class, 'tempatIbadahDetail'])->name('tempat-ibadah-detail');
+Route::get('inggirs-raya/kuliner/detail', [PageController::class, 'kulinerDetail'])->name('kuliner-detail');
+Route::get('inggirs-raya/tempat-wisata/detail', [PageController::class, 'tempatWisataDetail'])->name('tempat-wisata-detail');
 
 Route::get('himbauan', [PageController::class, 'himbauan'])->name('himbauan');
 Route::get('himbauan/detail', [PageController::class, 'himbauanDetail'])->name('himbauan-detail');

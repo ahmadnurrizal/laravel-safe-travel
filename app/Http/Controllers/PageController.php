@@ -59,6 +59,22 @@ class PageController extends Controller
     {
         return  view("pages.info-negara.tempat-wisata");
     }
+    public function fasilitasKesehatanDetail()
+    {
+        return  view("pages.info-negara.kesehatan-detail");
+    }
+    public function tempatIbadahDetail()
+    {
+        return  view("pages.info-negara.tempat-ibadah-detail");
+    }
+    public function kulinerDetail()
+    {
+        return  view("pages.info-negara.kuliner-detail");
+    }
+    public function tempatWisataDetail()
+    {
+        return  view("pages.info-negara.tempat-wisata-detail");
+    }
     public function himbauan()
     {
         return  view("pages.himbauan.himbauan");
@@ -83,6 +99,8 @@ class PageController extends Controller
     {
         return  view("pages.pelayanan.detail-kbri");
     }
+
+
 
     /**
      * Display a listing of the resource.
