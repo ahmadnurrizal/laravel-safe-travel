@@ -18,18 +18,14 @@
     margin: 0;
 }
 
-.search {
+#pelayanan .search {
     margin-bottom: 10px;
 }
 
-.center .search-box {
+#pelayanan .center .search-box {
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
-
-/* .datatable-card {
-    min-height: 80vh;
-} */
 
 #pelayanan .card:hover {
     transform: scale(1.04);

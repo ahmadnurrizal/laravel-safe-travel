@@ -7,6 +7,7 @@ import { Input } from "mdb-ui-kit"; // module
 import "./pelayanan.js";
 import "./beranda.js";
 import "./info-negara.js";
+import "./fun-facts.js";
 
 $("#recipeCarousel").carousel({
     interval: 10000,

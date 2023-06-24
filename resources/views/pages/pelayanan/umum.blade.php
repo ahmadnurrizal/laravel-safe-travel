@@ -4,7 +4,7 @@
 @section('content')
 
 <div class="center container datatable-card mb-5">
-    <div class="col-md-5 mx-auto search-box">
+    <div class="col-md-5 mx-auto search-box my-5">
         <div class="large fw-light">Cari Negara</div>
         <div class="input-group rounded">
             <input type="search" class="form-control rounded"

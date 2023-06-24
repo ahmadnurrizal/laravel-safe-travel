@@ -4,6 +4,7 @@
 @import "info-negara.css";
 @import "./pelayanan.css";
 @import "./himbauan.css";
+@import "./fun-facts.css";
 
 .card-text-center {
     display: flex;
