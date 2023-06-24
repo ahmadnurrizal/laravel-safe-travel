@@ -1,20 +1,20 @@
-.datatable {
+#pelayanan {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
-.datatable-card .card {
+#pelayanan .card {
+    margin: 0;
     width: calc(33.33% - 10px);
     margin-bottom: 20px;
     background-color: #f1f1f1;
-    padding: 10px;
     box-sizing: border-box;
     overflow: hidden;
     transition: 0.5s;
 }
 
-.datatable-card .card h3 {
+#pelayanan .card h3 {
     margin: 0;
 }
 
@@ -27,10 +27,10 @@
     margin-bottom: 2rem;
 }
 
-.datatable-card {
+/* .datatable-card {
     min-height: 80vh;
-}
+} */
 
-.datatable-card .card:hover {
+#pelayanan .card:hover {
     transform: scale(1.04);
 }

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("searchInput");
-    const datatable = document.getElementById("datatable");
+    const datatable = document.getElementById("pelayanan");
 
     searchInput.addEventListener("input", function () {
         const searchValue = searchInput.value.toLowerCase();

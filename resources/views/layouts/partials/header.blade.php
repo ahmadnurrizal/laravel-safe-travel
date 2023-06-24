@@ -40,11 +40,28 @@
                     <li class="nav-item mx-lg-5">
                         <a class="nav-link" href="{{route('himbauan')}}">Himbauan</a>
                     </li>
-                    <li class="nav-item mx-lg-5">
-                        <a class="nav-link" href="#">Asuransi</a>
+                    <li class="nav-item mx-lg-5 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Asuransi
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="{{route('asuransi-perjalanan')}}">Asuransi Perjalanan</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{{route('asuransi-perjalanan')}}">Asuransi Perjalanan
+                                    Kartu Kredit</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{{route('infografis')}}">Infografis Asuransi
+                                    Perjalanan</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item mx-lg-5">
-                        <a class="nav-link" href="#">Fun Fact</a>
+                        <a class="nav-link" href="{{route('fun-fact')}}">Fun Fact</a>
                     </li>
                     <li class="nav-item mx-lg-5">
                         <a class="nav-link" href="#">Tips</a>

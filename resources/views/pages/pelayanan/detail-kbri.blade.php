@@ -22,13 +22,17 @@
                             <li><a class="dropdown-item" href="{{route('pembuatan-paspor')}}">Pembuatan Paspor Baru</a>
                             </li>
                             <li><a class="dropdown-item" href="{{route('pembuatan-SPLP')}}">Pembuatan SPLP</a></li>
-                            <li><a class="dropdown-item" href="#">Legalisasi Dokumen</a></li>
+                            <li><a class="dropdown-item" href="{{route('legalisasi-dokumen')}}">Legalisasi Dokumen</a>
+                            </li>
                             <li><a class="dropdown-item" href="{{route('pelayanan-lain')}}">Pelayanan Lain</a></li>
-                            <li><a class="dropdown-item" href="#">Lapor Diri </a></li>
-                            <li><a class="dropdown-item" href="#">Tourist/Social Visa</a></li>
-                            <li><a class="dropdown-item" href="#">Diplomatic and Service Visa</a></li>
-                            <li><a class="dropdown-item" href="#">Journalistic Visa</a></li>
-                            <li><a class="dropdown-item" href="#">Perlindungan Hukum</a></li>
+                            <li><a class="dropdown-item" href="{{route('lapor-diri')}}">Lapor Diri </a></li>
+                            <li><a class="dropdown-item" href="{{route('tourist-visa')}}">Tourist/Social Visa</a></li>
+                            <li><a class="dropdown-item" href="{{route('diplomatic-service-visa')}}">Diplomatic and
+                                    Service Visa</a></li>
+                            <li><a class="dropdown-item" href="{{route('journalistic-visa')}}">Journalistic Visa</a>
+                            </li>
+                            <li><a class="dropdown-item" href="{{route('perlindungan-hukum')}}">Perlindungan Hukum</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

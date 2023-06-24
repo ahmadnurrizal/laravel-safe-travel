@@ -135,6 +135,18 @@ class PageController extends Controller
     {
         return  view("pages.pelayanan.perlindungan-hukum");
     }
+    public function asuransiPerjalanan()
+    {
+        return  view("pages.asuransi.asuransi-perjalanan");
+    }
+    public function infografis()
+    {
+        return  view("pages.asuransi.infografis-asuransi-perjalanan");
+    }
+    public function funFact()
+    {
+        return  view("pages.fun-fact.index");
+    }
 
 
 

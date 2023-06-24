@@ -56,3 +56,8 @@ Route::get('pelayanan/umum/tourist-visa', [PageController::class, 'touristVisa']
 Route::get('pelayanan/umum/diplomatic-service-visa', [PageController::class, 'diplomaticServiceVisa'])->name('diplomatic-service-visa');
 Route::get('pelayanan/umum/journalistic-visa', [PageController::class, 'journalisticVisa'])->name('journalistic-visa');
 Route::get('pelayanan/umum/perlindungan-hukum', [PageController::class, 'perlindunganHukum'])->name('perlindungan-hukum');
+
+Route::get('asuransi/perjalanan', [PageController::class, 'asuransiPerjalanan'])->name('asuransi-perjalanan');
+Route::get('asuransi/infografis', [PageController::class, 'infografis'])->name('infografis');
+
+Route::get('fun-fact', [PageController::class, 'funFact'])->name('fun-fact');
