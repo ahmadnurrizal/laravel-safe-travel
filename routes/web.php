@@ -14,14 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('beranda', [PageController::class, 'beranda'])->name('beranda');
+Route::get('/', [PageController::class, 'beranda'])->name('beranda');
 Route::get('info-negara', [PageController::class, 'infoNegara'])->name('info-negara');
 Route::get('inggirs-raya/informasi-umum', [PageController::class, 'informasiUmum'])->name('informasi-umum');
 Route::get('inggirs-raya/persyaratan', [PageController::class, 'persyaratan'])->name('persyaratan');
@@ -46,3 +46,13 @@ Route::get('pelayanan/dinas', [PageController::class, 'pelayananDinas'])->name('
 Route::get('pelayanan/umum', [PageController::class, 'pelayananUmum'])->name('pelayanan-umum');
 Route::get('pelayanan/umum/inggris-raya', [PageController::class, 'pelayananUmumInggrisRaya'])->name('pelayanan-umum-inggris-raya');
 Route::get('pelayanan/umum/kbri', [PageController::class, 'kbri'])->name('kbri');
+
+Route::get('pelayanan/umum/pembuatan-paspor', [PageController::class, 'pembuatanPaspor'])->name('pembuatan-paspor');
+Route::get('pelayanan/umum/pembuatan-SPLP', [PageController::class, 'pembuatanSPLP'])->name('pembuatan-SPLP');
+Route::get('pelayanan/umum/legalisasi-dokumen', [PageController::class, 'legalisasiDokumen'])->name('legalisasi-dokumen');
+Route::get('pelayanan/umum/pelayanan-lain', [PageController::class, 'pelayananLain'])->name('pelayanan-lain');
+Route::get('pelayanan/umum/lapor-diri', [PageController::class, 'laporDiri'])->name('lapor-diri');
+Route::get('pelayanan/umum/tourist-visa', [PageController::class, 'touristVisa'])->name('tourist-visa');
+Route::get('pelayanan/umum/diplomatic-service-visa', [PageController::class, 'diplomaticServiceVisa'])->name('diplomatic-service-visa');
+Route::get('pelayanan/umum/journalistic-visa', [PageController::class, 'journalisticVisa'])->name('journalistic-visa');
+Route::get('pelayanan/umum/perlindungan-hukum', [PageController::class, 'perlindunganHukum'])->name('perlindungan-hukum');

@@ -99,6 +99,42 @@ class PageController extends Controller
     {
         return  view("pages.pelayanan.detail-kbri");
     }
+    public function pembuatanPaspor()
+    {
+        return  view("pages.pelayanan.pembuatan-paspor");
+    }
+    public function pembuatanSPLP()
+    {
+        return  view("pages.pelayanan.pembuatan-SPLP");
+    }
+    public function legalisasiDokumen()
+    {
+        return  view("pages.pelayanan.legalisasi-dokumen");
+    }
+    public function pelayananLain()
+    {
+        return  view("pages.pelayanan.pelayanan-lain");
+    }
+    public function laporDiri()
+    {
+        return  view("pages.pelayanan.lapor-diri");
+    }
+    public function touristVisa()
+    {
+        return  view("pages.pelayanan.tourist-social-visa");
+    }
+    public function diplomaticServiceVisa()
+    {
+        return  view("pages.pelayanan.diplomatic-service-visa");
+    }
+    public function journalisticVisa()
+    {
+        return  view("pages.pelayanan.journalistic-Visa");
+    }
+    public function perlindunganHukum()
+    {
+        return  view("pages.pelayanan.perlindungan-hukum");
+    }
 
 
 

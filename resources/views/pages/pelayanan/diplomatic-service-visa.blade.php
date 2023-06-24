@@ -22,22 +22,39 @@
                             <li><a class="dropdown-item" href="{{route('pembuatan-paspor')}}">Pembuatan Paspor Baru</a>
                             </li>
                             <li><a class="dropdown-item" href="{{route('pembuatan-SPLP')}}">Pembuatan SPLP</a></li>
-                            <li><a class="dropdown-item" href="#">Legalisasi Dokumen</a></li>
+                            <li><a class="dropdown-item" href="{{route('legalisasi-dokumen')}}">Legalisasi Dokumen</a>
+                            </li>
                             <li><a class="dropdown-item" href="{{route('pelayanan-lain')}}">Pelayanan Lain</a></li>
-                            <li><a class="dropdown-item" href="#">Lapor Diri </a></li>
-                            <li><a class="dropdown-item" href="#">Tourist/Social Visa</a></li>
-                            <li><a class="dropdown-item" href="#">Diplomatic and Service Visa</a></li>
-                            <li><a class="dropdown-item" href="#">Journalistic Visa</a></li>
-                            <li><a class="dropdown-item" href="#">Perlindungan Hukum</a></li>
+                            <li><a class="dropdown-item" href="{{route('lapor-diri')}}">Lapor Diri </a></li>
+                            <li><a class="dropdown-item" href="{{route('tourist-visa')}}">Tourist/Social Visa</a></li>
+                            <li><a class="dropdown-item" href="{{route('diplomatic-service-visa')}}">Diplomatic and
+                                    Service Visa</a></li>
+                            <li><a class="dropdown-item" href="{{route('journalistic-visa')}}">Journalistic Visa</a>
+                            </li>
+                            <li><a class="dropdown-item" href="{{route('perlindungan-hukum')}}">Perlindungan Hukum</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="row p-3">
-                <h3>Alamat KBRI</h3>
-                <img src={{asset('storage/images/maps-pelayanan.png')}} class="rounded rounded-xxl mx-auto d-block mb-1"
-                    alt="maps" height="300px">
-                <p>Kungsbroplan 1, Lantai 4, 112 27 Stockholm, Sweden (P.O.BOX 130 62)</p>
+            <div class="px-5" style="margin-bottom: 10rem">
+                <p>Persyaratan</p>
+                <p style="margin: 0px"> For information regarding this please contack
+                </p>
+                <p>
+                    stockholm.kbri@kemlu.go.id
+                </p>
+
+                <p style="margin: 0px"> Biaya
+                </p>
+                <p>
+                    -
+                </p>
+                <p style="margin: 0px"> Waktu Pelayanan
+                </p>
+                <p>
+                    -
+                </p>
             </div>
             <div class="container py-3">
                 @yield('sub-info-negara')

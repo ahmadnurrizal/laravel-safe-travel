@@ -3,27 +3,31 @@
 @section('title', 'Pelayanan Dinas')
 @section('content')
 <div class="container">
-    <div class="alert alert-secondary my-lg-3 text-center" role="alert">
-        <span style="font-size: larger; font-weight: bold;">Pelayanan Dinas</span>
-    </div>
+    <h2 class="text-center my-5 ">
+        Pelayanan Dinas
+    </h2>
     <div class="px-3">
         <img src={{asset('storage/images/gedung-pancasila.png')}} alt="" class="img-fluid">
     </div>
-    <div class="alert alert-secondary my-lg-3 text-center" role="alert">
-        <p class="text-start mb-0">
-            Paspor Diplomatik dan Paspor Dinas <br>
-            Pelayanan dilakukan di loket pelayanan Direktorat Konsuler, Kementerian Luar Negeri (Jl. Taman Pejambon No.
-            06, Jakarta Pusat) <br>
-            Jam pelayanan : Senin s/d Jumat (09.00 – 16.00 WIB)
-        </p>
+    <div class="card border-0 my-5" style="border-radius: 20px;background-color: #E7F4FF">
+        <div class="card-body">
+            <p class="text-start mb-0">
+                Paspor Diplomatik dan Paspor Dinas <br>
+                Pelayanan dilakukan di loket pelayanan Direktorat Konsuler, Kementerian Luar Negeri (Jl. Taman Pejambon
+                No.
+                06, Jakarta Pusat) <br>
+                Jam pelayanan : Senin s/d Jumat (09.00 – 16.00 WIB)
+            </p>
+        </div>
     </div>
     <div class="accordion mb-3" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
+        <div class="accordion-item" style="background-color: #E7F4FF">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                    aria-controls="panelsStayOpen-collapseOne">
-                    PELAYANAN PASPOR BARU/PENGGANTIAN PASPOR
+                    aria-controls="panelsStayOpen-collapseOne" style="background-color: #2071B8">
+                    <span class="text-white"> PELAYANAN PASPOR BARU/PENGGANTIAN PASPOR</span>
+
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
@@ -69,12 +73,13 @@
                 </div>
             </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item" style="background-color: #E7F4FF">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseTwo">
-                    PELAYANAN PASPOR LAMA
+                    aria-controls="panelsStayOpen-collapseTwo" style="background-color: #2071B8">
+                    <span class="text-white">PELAYANAN PASPOR LAMA</span>
+
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
@@ -89,12 +94,13 @@
                 </div>
             </div>
         </div>
-        <div class="accordion-item">
+        <div class="accordion-item" style="background-color: #E7F4FF">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseThree">
-                    PELAYANAN PASPOR BARU/PENGGANTIAN PASPOR
+                    aria-controls="panelsStayOpen-collapseThree" style="background-color: #2071B8">
+
+                    <span class="text-white">PELAYANAN PASPOR BARU/PENGGANTIAN PASPOR</span>
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
