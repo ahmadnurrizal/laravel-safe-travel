@@ -1,3 +1,14 @@
+#beranda .overlay {
+    /* position: relative; */
+}
+
+#beranda .caption-text {
+    position: absolute;
+    top: 100%;
+    /* left: 40%; */
+    transform: translate(-100%, 50%);
+}
+
 @media (max-width: 991px) {
     .navbar-scroll {
         background-color: #fff;
@@ -128,12 +139,12 @@
 @media (min-width: 768px) {
     .carousel-multi-image .carousel-inner .carousel-item-end.active,
     .carousel-multi-image .carousel-inner .carousel-item-next {
-        transform: translateX(25%);
+        transform: translateX(16.666666%);
     }
 
     .carousel-multi-image .carousel-inner .carousel-item-start.active,
     .carousel-multi-image .carousel-inner .carousel-item-prev {
-        transform: translateX(-25%);
+        transform: translateX(-16.66666%);
     }
 }
 

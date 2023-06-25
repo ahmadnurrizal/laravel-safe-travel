@@ -3,7 +3,7 @@ let items = document.querySelectorAll(
 );
 
 items.forEach((el) => {
-    const minPerSlide = 4;
+    const minPerSlide = 6;
     let next = el.nextElementSibling;
     for (var i = 1; i < minPerSlide; i++) {
         if (!next) {
