@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer class="text-white" style="background-color: #22223b">
     <div class="container-fluid">
-        <div class="row p-4">
+        <div class="row px-4 pt-4">
             <div class="col-md-3 d-flex flex-column justify-content-center">
                 <p>Kementrian Luar Negeri</p>
                 <p>
@@ -32,11 +32,11 @@
             </div>
 
             <div class="col-md-3">
-                <p>Update Berita Kami</p>
                 <p>Berlangganan info kami</p>
-                <p><i class="fas fa-envelope fa-2x m-2" style="color: white;"></i>
+                <p><i class="fas fa-envelope m-2" style="color: white;"></i>
                     <span class="ms-2">Email :</span>
                 </p>
+                <hr>
 
             </div>
         </div>

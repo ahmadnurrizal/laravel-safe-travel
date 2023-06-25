@@ -20,6 +20,18 @@
     </div>
 
     <div class="datatable" id="pelayanan">
+        <div class="card mx-3" style="max-width: 400px;background-color:#2D81CB">
+            <a href="{{route('pelayanan-umum-inggris-raya')}}">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="{{asset('storage/images/negara/inggris.png')}}" alt="" height="40px">
+                    </div>
+                    <div class="col-10 d-flex align-items-center justify-content-center text-white">
+                        <span>Inggris Raya</span>
+                    </div>
+                </div>
+            </a>
+        </div>
         <div class="card mx-3 border-0" style="max-width: 400px;background-color:#2D81CB">
             <a href="{{route('pelayanan-umum-inggris-raya')}}">
                 <div class="row">
@@ -148,18 +160,6 @@
                     </div>
                     <div class="col-10 d-flex align-items-center justify-content-center text-white">
                         <span>India</span>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="card mx-3" style="max-width: 400px;background-color:#2D81CB">
-            <a href="{{route('pelayanan-umum-inggris-raya')}}">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="{{asset('storage/images/negara/inggris.png')}}" alt="" height="40px">
-                    </div>
-                    <div class="col-10 d-flex align-items-center justify-content-center text-white">
-                        <span>Inggris Raya</span>
                     </div>
                 </div>
             </a>
