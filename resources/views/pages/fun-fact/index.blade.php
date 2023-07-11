@@ -25,22 +25,92 @@
         </div>
         <div class="datatable justify-content-center" id="datatable">
             <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color: transparent;">
-                <div class="row g-0">
-                    <div class="col">
-                        <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
-                            class="img-fluid rounded-start" alt="...">
-                        <span style="display: none;">Afrika selatan</span>
+                <a href="{{route('fun-fact-detail')}}">
+                    <div class="row g-0">
+                        <div class="col">
+                            <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
+                                class="img-fluid rounded-start" alt="...">
+                            <span style="display: none;">Afrika selatan</span>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
-                <div class="row g-0">
-                    <div class="col">
-                        <img src={{asset('storage/images/fun-facts/afganistan.png')}} class="img-fluid rounded-start"
-                            alt="...">
-                        <span style="display: none;">Afganistan</span>
+                <a href="{{route('fun-fact-detail')}}">
+                    <div class="row g-0">
+                        <div class="col">
+                            <img src={{asset('storage/images/fun-facts/afganistan.png')}}
+                                class="img-fluid rounded-start" alt="...">
+                            <span style="display: none;">Afganistan</span>
+                        </div>
                     </div>
-                </div>
+                </a>
+            </div>
+            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
+                <a href="{{route('fun-fact-detail')}}">
+                    <div class="row g-0">
+                        <div class="col">
+                            <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
+                                class="img-fluid rounded-start" alt="...">
+                            <span style="display: none;">afrika selatan</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
+                <a href="{{route('fun-fact-detail')}}">
+                    <div class="row g-0">
+                        <div class="col">
+                            <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
+                                class="img-fluid rounded-start" alt="...">
+                            <span style="display: none;">afrika selatan</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
+                <a href="{{route('fun-fact-detail')}}">
+                    <div class="row g-0">
+                        <div class="col">
+                            <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
+                                class="img-fluid rounded-start" alt="...">
+                            <span style="display: none;">afrika selatan</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
+                <a href="{{route('fun-fact-detail')}}">
+                    <div class="row g-0">
+                        <div class="col">
+                            <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
+                                class="img-fluid rounded-start" alt="...">
+                            <span style="display: none;">afrika selatan</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
+                <a href="{{route('fun-fact-detail')}}">
+                    <div class="row g-0">
+                        <div class="col">
+                            <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
+                                class="img-fluid rounded-start" alt="...">
+                            <span style="display: none;">afrika selatan</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
+                <a href="{{route('fun-fact-detail')}}">
+                    <div class="row g-0">
+                        <div class="col">
+                            <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
+                                class="img-fluid rounded-start" alt="...">
+                            <span style="display: none;">afrika selatan</span>
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
                 <div class="row g-0">
@@ -52,67 +122,15 @@
                 </div>
             </div>
             <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
-                <div class="row g-0">
-                    <div class="col">
-                        <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
-                            class="img-fluid rounded-start" alt="...">
-                        <span style="display: none;">afrika selatan</span>
+                <a href="{{route('fun-fact-detail')}}">
+                    <div class="row g-0">
+                        <div class="col">
+                            <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
+                                class="img-fluid rounded-start" alt="...">
+                            <span style="display: none;">afrika selatan</span>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
-                <div class="row g-0">
-                    <div class="col">
-                        <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
-                            class="img-fluid rounded-start" alt="...">
-                        <span style="display: none;">afrika selatan</span>
-                    </div>
-                </div>
-            </div>
-            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
-                <div class="row g-0">
-                    <div class="col">
-                        <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
-                            class="img-fluid rounded-start" alt="...">
-                        <span style="display: none;">afrika selatan</span>
-                    </div>
-                </div>
-            </div>
-            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
-                <div class="row g-0">
-                    <div class="col">
-                        <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
-                            class="img-fluid rounded-start" alt="...">
-                        <span style="display: none;">afrika selatan</span>
-                    </div>
-                </div>
-            </div>
-            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
-                <div class="row g-0">
-                    <div class="col">
-                        <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
-                            class="img-fluid rounded-start" alt="...">
-                        <span style="display: none;">afrika selatan</span>
-                    </div>
-                </div>
-            </div>
-            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
-                <div class="row g-0">
-                    <div class="col">
-                        <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
-                            class="img-fluid rounded-start" alt="...">
-                        <span style="display: none;">afrika selatan</span>
-                    </div>
-                </div>
-            </div>
-            <div class="card border-0 shadow-none mx-4 my-4" style="max-width: 200px;background-color:transparent">
-                <div class="row g-0">
-                    <div class="col">
-                        <img src={{asset('storage/images/fun-facts/afrika-selatan.png')}}
-                            class="img-fluid rounded-start" alt="...">
-                        <span style="display: none;">afrika selatan</span>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

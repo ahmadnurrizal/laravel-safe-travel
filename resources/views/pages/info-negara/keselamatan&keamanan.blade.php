@@ -154,8 +154,8 @@
             </p>
 
         </div>
-        <p class="show-more-text" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false"
-            aria-controls="collapseExample"><b>Show More</b></p>
+        <span class="show-more-text" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false"
+            aria-controls="collapseExample"><i class="fa-solid fa-ellipsis fa-2xl"></i></span>
     </div>
 </div>
 

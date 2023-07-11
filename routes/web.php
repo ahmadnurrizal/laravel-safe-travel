@@ -61,3 +61,8 @@ Route::get('asuransi/perjalanan', [PageController::class, 'asuransiPerjalanan'])
 Route::get('asuransi/infografis', [PageController::class, 'infografis'])->name('infografis');
 
 Route::get('fun-fact', [PageController::class, 'funFact'])->name('fun-fact');
+Route::get('fun-fact/detail', [PageController::class, 'funFactDetail'])->name('fun-fact-detail');
+
+Route::get('tips/infografis', [PageController::class, 'tipsInfografis'])->name('infografis-tips');
+Route::get('tips/tki', [PageController::class, 'tipsTKI'])->name('tips-tki');
+Route::get('tips/umrah', [PageController::class, 'tipsUmrah'])->name('tips-umrah');

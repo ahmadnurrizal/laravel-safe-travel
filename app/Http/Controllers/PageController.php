@@ -147,6 +147,22 @@ class PageController extends Controller
     {
         return  view("pages.fun-fact.index");
     }
+    public function funFactDetail()
+    {
+        return  view("pages.fun-fact.detail");
+    }
+    public function tipsInfografis()
+    {
+        return  view("pages.tips.infografis-tips");
+    }
+    public function tipsTKI()
+    {
+        return  view("pages.tips.tki");
+    }
+    public function tipsUmrah()
+    {
+        return  view("pages.tips.umrah");
+    }
 
 
 
