@@ -85,12 +85,31 @@
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingTwo">
                 <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+
+                    Pelayanan permohonan paspor lama dilakukan dalam 2 hari kerja.
+                    <li> Persyaratan Pengajuan Permohonan Paspor Lama </li>
+
+                    <ul>
+                        <li>
+                            Melampirkan paspor
+                        </li>
+                        <li>
+                            Asli Surat Persetujuan dari Kemensetneg (bagi pemohon PNS)
+                        </li>
+                        <li>
+                            Asli Surat Perintah (khusus TNI/POLRI)
+                        </li>
+                        <li>
+                            Asli Surat Izin Fraksi/Komisi dan Surat dari Kesekjenan (khusus anggota DPR, DPD, MPR)
+                        </li>
+                        <li>
+                            Asli Surat Pengantar dari instansi terkait
+                        </li>
+                        <li>
+                            Mengisi formulir dengan lengkap, teliti dan sebenar-benarnya. Formulir dapat diunduh.....
+                            (Formulir 1 dan Formulir 2?)
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -106,12 +125,89 @@
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingThree">
                 <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+                    <li>
+                        Ketentuan Terkait Penulisan Nama
+                    </li>
+                    <ul>
+                        <li>
+                            Penulisan nama pada paspor didasarkan pada dokumen negara yang sah (KTP/Karpeg/Akte
+                            Kelahiran)
+                            Karakter maksimal untuk nama adalah 38 karakter
+                        </li>
+                        <li>
+                            Tidak dibenarkan menulis nama dengan singkatan
+                        </li>
+                        <li>
+                            Untuk nama yang terdapat apostrof (') atau tanda baca lainnya, penulisan nama pada paspor
+                            dilakukan dengan menghilangkan tanda baca tersebut.
+                        </li>
+                        <li>
+                            Tidak dibenarkan menulis gelar/jabatan
+                        </li>
+                    </ul>
+                    <li>
+                        Ketentuan Terkait Foto
+                    </li>
+                    <ul>
+                        <li>
+                            Foto terbaru dalam 6 bulan terakhir
+                        </li>
+                        <li>
+                            Kualitas foto baik (foto studio)
+                        </li>
+                        <li>
+                            Foto berlatar belakang putih
+                        </li>
+                        <li>
+                            Foto tidak boleh sama dengan paspor lamanya
+                        </li>
+                        <li>
+                            Foto tidak boleh terlihat gigi
+                        </li>
+                        <li>
+                            Tidak boleh memakai kacamata
+                        </li>
+                        <li>
+                            Untuk tampilan
+                        </li>
+                        <li>
+                            Pria
+                            <ol>
+                                <li>
+                                    Memakai Pakaian Sipil Lengkap (kemeja, jas, dasi)
+                                </li>
+                                <li>
+
+                                    Tidak diperkenankan untuk memakai topi/peci.
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            Wanita
+                            <ol>
+                                <li>
+                                    Untuk yang berjilbab (jilbab menutupi leher dan telinga, jilbab berwarna tidak
+                                    putih)
+                                </li>
+                                <li>
+                                    Untuk yang tidak berjilbab telinga harus terlihat.
+                                </li>
+                                <li>
+                                    Berpakaian rapi dan sopan
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <li>Ketentuan Terkait Rekomendasi Visa</li>
+                    <ul>
+                        <li>Khusus permohonan rekomendasi visa ke Amerika Serikat, diwajibkan untuk menjabarkan dalam
+                            bahasa
+                            inggris jabatan sekarang, tempat tujuan (kota), deskripsi kedinasan, tanggal keberangkatan,
+                            lama
+                            bertugas, serta melampirkan fotokopi surat undangan resmi.</li>
+                    </ul>
+
+
                 </div>
             </div>
         </div>
