@@ -163,6 +163,10 @@ class PageController extends Controller
     {
         return  view("pages.tips.umrah");
     }
+    public function tipsWisatawan()
+    {
+        return  view("pages.tips.wisatawan");
+    }
 
 
 

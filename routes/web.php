@@ -66,3 +66,4 @@ Route::get('fun-fact/detail', [PageController::class, 'funFactDetail'])->name('f
 Route::get('tips/infografis', [PageController::class, 'tipsInfografis'])->name('infografis-tips');
 Route::get('tips/tki', [PageController::class, 'tipsTKI'])->name('tips-tki');
 Route::get('tips/umrah', [PageController::class, 'tipsUmrah'])->name('tips-umrah');
+Route::get('tips/wisatawan', [PageController::class, 'tipsWisatawan'])->name('tips-wisatawan');

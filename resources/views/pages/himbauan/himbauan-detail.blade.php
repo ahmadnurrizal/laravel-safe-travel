@@ -16,7 +16,7 @@
 
         <img src={{asset('storage/images/himbauan.png')}} class="img-fluid" alt="Full Width Image" width="70%">
     </div>
-    <div class="card my-5 border-0" style="border-radius: 30px">
+    <div class="card my-5 border-0" style="border-radius: 30px;background-color: #E7F4FF">
         <div class="card-body">
             <p>
                 Pada tgl 23 Maret 2023 siang hingga malam hari waktu Paris terjadi kerusuhan di beberapa titik di kota
@@ -41,7 +41,7 @@
         </div>
     </div>
     <div class="d-flex justify-content-center align-items-center mb-4">
-        <div class="card border-0 p-3" style="border-radius: 30px; display: inline-block;">
+        <div class="card border-0 p-3" style="border-radius: 30px; display: inline-block;background-color: #E7F4FF">
             <div class="text-center mb-3">
                 <p class="fw-bold">share on :</p>
                 <div class="social-icons d-flex justify-content-center">

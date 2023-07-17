@@ -82,7 +82,7 @@
                                     TKI</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-white" href="#">
+                                <a class="dropdown-item text-white" href="{{route('tips-wisatawan')}}">
                                     Wisatawan</a>
                             </li>
                             <li>
