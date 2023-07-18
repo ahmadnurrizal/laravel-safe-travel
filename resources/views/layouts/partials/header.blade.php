@@ -52,7 +52,7 @@
                                     Perjalanan</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-white" href="{{route('asuransi-perjalanan')}}">Asuransi
+                                <a class="dropdown-item text-white" href="{{route('asuransi-kartu-kredit')}}">Asuransi
                                     Perjalanan
                                     Kartu Kredit</a>
                             </li>

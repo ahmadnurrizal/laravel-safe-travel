@@ -19,6 +19,61 @@
                 </div>
             </div>
         </div>
+        <div class="col">
+            <div class="card border-0 text-center my-5" style="background-color: black;border-radius:15px">
+                <img src={{asset('storage/images/kbri-london.png')}} alt="">
+                <div class="card-body p-4">
+                    <a class="card-block stretched-link text-decoration-none"
+                        style="text-decoration: none; color: inherit;" href="{{route('kbri')}}">
+                        <h5 class="card-title text-white">KBRI London</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card border-0 text-center my-5" style="background-color: black;border-radius:15px">
+                <img src={{asset('storage/images/kbri-london.png')}} alt="">
+                <div class="card-body p-4">
+                    <a class="card-block stretched-link text-decoration-none"
+                        style="text-decoration: none; color: inherit;" href="{{route('kbri')}}">
+                        <h5 class="card-title text-white">KBRI London</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card border-0 text-center my-5" style="background-color: black;border-radius:15px">
+                <img src={{asset('storage/images/kbri-london.png')}} alt="">
+                <div class="card-body p-4">
+                    <a class="card-block stretched-link text-decoration-none"
+                        style="text-decoration: none; color: inherit;" href="{{route('kbri')}}">
+                        <h5 class="card-title text-white">KBRI London</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card border-0 text-center my-5" style="background-color: black;border-radius:15px">
+                <img src={{asset('storage/images/kbri-london.png')}} alt="">
+                <div class="card-body p-4">
+                    <a class="card-block stretched-link text-decoration-none"
+                        style="text-decoration: none; color: inherit;" href="{{route('kbri')}}">
+                        <h5 class="card-title text-white">KBRI London</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card border-0 text-center my-5" style="background-color: black;border-radius:15px">
+                <img src={{asset('storage/images/kbri-london.png')}} alt="">
+                <div class="card-body p-4">
+                    <a class="card-block stretched-link text-decoration-none"
+                        style="text-decoration: none; color: inherit;" href="{{route('kbri')}}">
+                        <h5 class="card-title text-white">KBRI London</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
         {{-- <div class="col">
             <div class="card">
                 <img src="https://ik.imagekit.io/tvlk/blog/2020/04/Masjid-Raya-Medan-Wikipedia.jpg" class="card-img-top"

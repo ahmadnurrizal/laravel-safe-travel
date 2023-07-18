@@ -59,6 +59,7 @@ Route::get('pelayanan/umum/perlindungan-hukum', [PageController::class, 'perlind
 
 Route::get('asuransi/perjalanan', [PageController::class, 'asuransiPerjalanan'])->name('asuransi-perjalanan');
 Route::get('asuransi/infografis', [PageController::class, 'infografis'])->name('infografis');
+Route::get('asuransi/kartu-kredit', [PageController::class, 'asuransiKartuKredit'])->name('asuransi-kartu-kredit');
 
 Route::get('fun-fact', [PageController::class, 'funFact'])->name('fun-fact');
 Route::get('fun-fact/detail', [PageController::class, 'funFactDetail'])->name('fun-fact-detail');

@@ -167,6 +167,10 @@ class PageController extends Controller
     {
         return  view("pages.tips.wisatawan");
     }
+    public function asuransiKartuKredit()
+    {
+        return  view("pages.asuransi.asuransi-kartu-kredit");
+    }
 
 
 

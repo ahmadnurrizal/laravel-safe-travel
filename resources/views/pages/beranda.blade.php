@@ -31,11 +31,11 @@
 
             <!-- Single item -->
             <div class="carousel-item">
-                <img src={{asset('storage/images/dashboard.png')}} class="d-block w-100" alt="Canyon at Nigh" />
+                <img src={{asset('storage/images/tembok-cina.png')}} class="d-block w-100" alt="Canyon at Nigh" />
 
             </div>
             <div class="carousel-item">
-                <img src={{asset('storage/images/dashboard.png')}} class="d-block w-100" alt="Canyon at Nigh" />
+                <img src={{asset('storage/images/liberty.png')}} class="d-block w-100" alt="Canyon at Nigh" />
 
             </div>
         </div>
