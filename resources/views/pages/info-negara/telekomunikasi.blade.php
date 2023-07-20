@@ -3,7 +3,7 @@
 @section('sub-info-negara')
 
 <h2 class=" text-center">@yield('sub-judul')</h2>
-<div class="card my-3">
+<div class="card my-3  border-0" style="background-color: #E7F4FF">
     <div class="card-body">
         <p>
             Untuk dapat melakukan sambungan lokal atau mendapatkan layanan internet, cara yang paling mudah adalah

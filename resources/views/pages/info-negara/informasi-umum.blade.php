@@ -3,7 +3,7 @@
 @section('sub-info-negara')
 
 <h2 class=" text-center">@yield('sub-judul')</h2>
-<div class="card my-3">
+<div class="card my-3 border-0" style="background-color: #E7F4FF">
     <div class="card-body">
         <p> Kode Telepon:<br>
             +44
@@ -30,8 +30,8 @@
 
     </div>
 </div>
-<img src="https://vatvostudio.vn/wp-content/uploads/2022/09/Google-Maps-Traffic2.jpg"
-    class="rounded rounded-xxl mx-auto d-block" alt="maps" width="100%">
+<img src={{asset('storage/images/maps-pelayanan.png')}} class="rounded rounded-xxl mx-auto d-block" alt="maps"
+    width="100%">
 <div class="contact-person mt-3">
     <h3>Contact Person</h3>
     <p>Email : london.kbri@kemlu.go.id; kbri@btconnect.com <br>

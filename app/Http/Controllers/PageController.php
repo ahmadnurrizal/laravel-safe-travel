@@ -59,6 +59,22 @@ class PageController extends Controller
     {
         return  view("pages.info-negara.tempat-wisata");
     }
+    public function fasilitasKesehatanDetail()
+    {
+        return  view("pages.info-negara.kesehatan-detail");
+    }
+    public function tempatIbadahDetail()
+    {
+        return  view("pages.info-negara.tempat-ibadah-detail");
+    }
+    public function kulinerDetail()
+    {
+        return  view("pages.info-negara.kuliner-detail");
+    }
+    public function tempatWisataDetail()
+    {
+        return  view("pages.info-negara.tempat-wisata-detail");
+    }
     public function himbauan()
     {
         return  view("pages.himbauan.himbauan");
@@ -67,6 +83,97 @@ class PageController extends Controller
     {
         return  view("pages.himbauan.himbauan-detail");
     }
+    public function pelayananDinas()
+    {
+        return  view("pages.pelayanan.dinas");
+    }
+    public function pelayananUmum()
+    {
+        return  view("pages.pelayanan.umum");
+    }
+    public function pelayananUmumInggrisRaya()
+    {
+        return  view("pages.pelayanan.list-kbri");
+    }
+    public function kbri()
+    {
+        return  view("pages.pelayanan.detail-kbri");
+    }
+    public function pembuatanPaspor()
+    {
+        return  view("pages.pelayanan.pembuatan-paspor");
+    }
+    public function pembuatanSPLP()
+    {
+        return  view("pages.pelayanan.pembuatan-SPLP");
+    }
+    public function legalisasiDokumen()
+    {
+        return  view("pages.pelayanan.legalisasi-dokumen");
+    }
+    public function pelayananLain()
+    {
+        return  view("pages.pelayanan.pelayanan-lain");
+    }
+    public function laporDiri()
+    {
+        return  view("pages.pelayanan.lapor-diri");
+    }
+    public function touristVisa()
+    {
+        return  view("pages.pelayanan.tourist-social-visa");
+    }
+    public function diplomaticServiceVisa()
+    {
+        return  view("pages.pelayanan.diplomatic-service-visa");
+    }
+    public function journalisticVisa()
+    {
+        return  view("pages.pelayanan.journalistic-Visa");
+    }
+    public function perlindunganHukum()
+    {
+        return  view("pages.pelayanan.perlindungan-hukum");
+    }
+    public function asuransiPerjalanan()
+    {
+        return  view("pages.asuransi.asuransi-perjalanan");
+    }
+    public function infografis()
+    {
+        return  view("pages.asuransi.infografis-asuransi-perjalanan");
+    }
+    public function funFact()
+    {
+        return  view("pages.fun-fact.index");
+    }
+    public function funFactDetail()
+    {
+        return  view("pages.fun-fact.detail");
+    }
+    public function tipsInfografis()
+    {
+        return  view("pages.tips.infografis-tips");
+    }
+    public function tipsTKI()
+    {
+        return  view("pages.tips.tki");
+    }
+    public function tipsUmrah()
+    {
+        return  view("pages.tips.umrah");
+    }
+    public function tipsWisatawan()
+    {
+        return  view("pages.tips.wisatawan");
+    }
+    public function asuransiKartuKredit()
+    {
+        return  view("pages.asuransi.asuransi-kartu-kredit");
+    }
+
+
+
     /**
      * Display a listing of the resource.
      */

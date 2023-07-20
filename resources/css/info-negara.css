@@ -1,12 +1,28 @@
-.center {
-    height: calc(100vh - 12rem); /* Corrected the calculation */
-    position: relative;
+.ratings {
+    margin-right: 10px;
 }
 
-.center .search-box {
-    margin: 0;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.ratings i {
+    color: #cecece;
+    font-size: 32px;
+}
+
+.rating-color {
+    color: #fbc634 !important;
+}
+
+.review-count {
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 24px !important;
+}
+
+.small-ratings i {
+    color: #cecece;
+}
+
+.review-stat {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 2px;
 }

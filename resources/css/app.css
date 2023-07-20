@@ -1,7 +1,10 @@
 @import "mdb-ui-kit/css/mdb.min.css";
 
-@import "page1.css";
+@import "beranda.css";
 @import "info-negara.css";
+@import "./pelayanan.css";
+@import "./himbauan.css";
+@import "./fun-facts.css";
 
 .card-text-center {
     display: flex;
@@ -10,8 +13,11 @@
     text-align: center;
 }
 
-.country-detail {
-    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00OTQtYmctMDE4Yy14LmpwZw.jpg?s=PXvJiW_YIOrBj_nW6BScUkDU8vVHxdHosn0QW6OAWiM"); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
+.dropdown-menu-custom {
+    background-color: #007fff !important; /* Replace with your desired color */
+}
+
+.dropdown-menu-custom .dropdown-item:hover {
+    background-color: #2071b8; /* Replace with your desired hover color */
+    color: #fff; /* Replace with the desired text color */
 }
